@@ -1,0 +1,40 @@
+{
+  "name": "realtime-data-rendering-adventures",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node node_modules/.bin/webpack-dev-server --content-base ./dist",
+    "build": "NODE_ENV=production node node_modules/.bin/webpack && cp src/index.html dist/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mailtomainak/realtime-data-rendering-adventures.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.0",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.4000",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+    "@types/react": "^16.8.10",
+    "@types/react-dom": "^16.8.3",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
+  },
+  "bugs": {
+    "url": "https://github.com/mailtomainak/realtime-data-rendering-adventures/issues"
+  },
+  "homepage": "https://github.com/mailtomainak/realtime-data-rendering-adventures#readme"
+}
